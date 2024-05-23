@@ -1,0 +1,58 @@
+body{
+    background-image: url("images\\backround-computers.png");
+}
+.Main{
+    display: flex;
+    max-width: fit-content;
+    margin-inline: auto;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+    gap: 10px;
+}
+.Main-Sub1{
+    text-align: center;
+    margin-inline: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+}
+.Main-Sub2{
+    text-align: center;
+    margin-inline: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: Arial;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+}
+p{
+    font-family: Arial;
+    font-size: 30px;
+}
+img{
+    float: left;
+}
+.text{
+    float: left;
+}
+.center{
+    align-items: center;
+}
+a{
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+}
